@@ -1,0 +1,8 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "build_shapes", color = "0.61 0.6 0.85", style="rounded"];
+	1[label = "retrieve_databundle_light", color = "0.62 0.6 0.85", style="rounded"];
+	1 -> 0
+}            

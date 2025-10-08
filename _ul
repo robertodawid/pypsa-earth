@@ -1,0 +1,3 @@
+C:\Users\rheredia\AppData\Local\miniconda3\envs\pypsa-earth\Lib\site-packages\pulp\apis\gurobi_api.py:170: UserWarning: GUROBI error: Unknown parameter '_test'.
+  warnings.warn("GUROBI error: {}.".format(e))
+Building DAG of jobs...
